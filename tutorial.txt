@@ -1,0 +1,8 @@
+How to run server on heroku
+1. Create git hub
+2. git clone https://github.com/TrongVT/server-push.git
+3. cd server-push
+4. heroku create
+5. git push heroku master
+6. heroku ps:scale web=1
+7. heroku open
